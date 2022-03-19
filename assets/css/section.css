@@ -21,13 +21,14 @@
 .section .section-container .section-header .section-view-all a {
   border: none;
   outline: none;
-  background: #ccc;
-  padding: 4px;
+  background: #EBEBEB;
+  padding: 10px;
   font-size: 16px;
+  color: #4C5156;
 }
 
 .section .section-container .section-header .section-view-all a:hover {
-  background-color: #2f4f4f;
+  background-color: #FF5B62;
   color: white;
 }
 
@@ -220,5 +221,3 @@
 .slick-disabled {
   display: none !important;
 }
-
-

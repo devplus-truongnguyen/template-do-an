@@ -1,6 +1,8 @@
 .banner .banner-container {
-  background-image: url(../../../assets/images/background/b-g-banner-1.jpg);
+  background-image: url(./../../assets/images/background/dominik-lange-VUOiQW4OeLI-unsplash.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 800px;
   display: flex;
@@ -20,17 +22,15 @@
 .banner .banner-container .banner-title h1 {
   font-size: 35px;
   text-transform: uppercase;
-  color: #008b8b;
-  text-shadow: 1px 1px 1px #ccc;
+  color: #FF5B62;
   font-weight: 600;
 }
 
 .banner .banner-container .banner-title h2 {
   font-size: 35px;
   text-transform: uppercase;
-  color: #008b8b;
+  color: #FF5B62;
   font-weight: 400;
-  text-shadow: 0.5px 0.5px 0.5px #ccc;
 }
 
 .banner .banner-container .banner-search {
@@ -45,9 +45,8 @@
   height: 50px;
   border-radius: 40px;
   margin-top: 10px;
-  background-color: transparent;
-  border: 1.5px solid #008b8b;
   display: flex;
+  border: 2px solid #FF5B62;
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-search {
@@ -55,17 +54,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #FF5B62;
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-search {
-  font-size: 30px;
-  color: #daa520;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-input {
   width: 70%;
-  color: white;
   background-color: transparent;
   border: none;
   outline: none;
@@ -141,10 +139,6 @@
   border: 0;
   outline: none;
   background: #ccc;
-}
-
-.slick-dots li button:before {
-  content: "";
 }
 
 .slick-dots li.slick-active button {
