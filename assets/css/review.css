@@ -21,7 +21,7 @@
 
 .customer-review .customer-card .card-review-top .card-review-icon {
   font-size: 30px;
-  color: #20b2aa;
+  color: #FF5B62;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .customer-review .card-review-bottom span:first-child {
-  color: #20b2aa;
+  color: #FF5B62;
   font-size: 20px;
   font-weight: 700;
 }

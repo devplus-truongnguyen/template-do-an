@@ -47,7 +47,7 @@
 }
 
 .header-container .header-menu .menu-item a:hover{
-  color: #20B2AA;
+  color: #FF5B62;
 }
 
 .header-container .header-menu .menu-item a span:first-child {
@@ -71,7 +71,7 @@
 }
 
 .banner-search-container{
-  background-color: #F7D800;
+  background-color: transparent;
   border: none;
 }
 

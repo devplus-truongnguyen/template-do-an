@@ -1,6 +1,8 @@
 .banner .banner-container {
-  background-image: url(../images/background/b-g-banner-1.jpg);
+  background-image: url(../component/loginPage/img/dominik-lange-VUOiQW4OeLI-unsplash.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 800px;
   display: flex;
@@ -20,17 +22,15 @@
 .banner .banner-container .banner-title h1 {
   font-size: 35px;
   text-transform: uppercase;
-  color: #008b8b;
-  text-shadow: 1px 1px 1px #ccc;
+  color: #FF5B62;
   font-weight: 600;
 }
 
 .banner .banner-container .banner-title h2 {
   font-size: 35px;
   text-transform: uppercase;
-  color: #008b8b;
+  color: #FF5B62;
   font-weight: 400;
-  text-shadow: 0.5px 0.5px 0.5px #ccc;
 }
 
 .banner .banner-container .banner-search {
@@ -46,6 +46,7 @@
   border-radius: 40px;
   margin-top: 10px;
   display: flex;
+  border: 2px solid #FF5B62;
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-search {
@@ -53,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #FF5B62;
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-search {

@@ -1,12 +1,17 @@
 .footer {
-  background: rgba(229, 238, 231, 0.45);
   padding-top: 30px;
 }
+
+
 
 .footer .footer-cl {
   font-size: 15px;
   font-family: "Nunito", sans-serif;
   padding-bottom: 15px;
+}
+
+.footer-cl img{
+  margin-bottom: 20px;
 }
 
 .footer .footer-cl-1 span:first-child {
@@ -15,7 +20,11 @@
 }
 
 .footer .footer-cl-2 .footer-list .f-list-item a {
-  color: #20b2aa;
+  color: black;
+}
+
+.f-list-item{
+  margin: 10px 0;
 }
 
 .footer .footer-icon {
@@ -26,7 +35,7 @@
 
 .footer .footer-end {
   height: 50px;
-  background-color: #20b2aa;
+  background-color: #FF5B62;
 }
 
 .footer .footer-end .footer-end-container {
