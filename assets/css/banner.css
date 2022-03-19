@@ -45,8 +45,6 @@
   height: 50px;
   border-radius: 40px;
   margin-top: 10px;
-  background-color: transparent;
-  border: 1.5px solid #008b8b;
   display: flex;
 }
 
@@ -58,14 +56,12 @@
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-search {
-  font-size: 30px;
-  color: #daa520;
+  font-size: 20px;
   cursor: pointer;
 }
 
 .banner .banner-container .banner-search .banner-search-container .icon-input {
   width: 70%;
-  color: white;
   background-color: transparent;
   border: none;
   outline: none;

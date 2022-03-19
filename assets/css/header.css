@@ -7,6 +7,7 @@
   display: flex;
   width: 25%;
   align-items: center;
+  cursor: pointer;
 }
 
 .header-container .header-expand-logo .header-expand span {
@@ -24,6 +25,10 @@
   padding: 0 20px;
   display: flex;
   align-items: center;
+}
+
+.header-expand{
+  margin-right: 20px;
 }
 
 .header-container .header-menu .menu-list {
@@ -58,10 +63,16 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .header-container .header-support .icon-support {
   color: #b0c4de;
+}
+
+.banner-search-container{
+  background-color: #F7D800;
+  border: none;
 }
 
 .header-container .header-support .icon-title {
@@ -78,6 +89,7 @@
 
   .header-container .header-expand-logo {
     width: 80%;
+    cursor: pointer;
   }
 
   .header-container .header-support {
